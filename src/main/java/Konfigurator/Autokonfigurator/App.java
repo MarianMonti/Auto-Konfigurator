@@ -1,6 +1,9 @@
 package com.company;
 import java.util.*;
 
+/**
+ * In dieser Klasse wird der Konfigurator gesteuert.
+ */
 public class App {
     User user;
     Car car;
@@ -20,6 +23,9 @@ public class App {
         car = new Car(marke, farbe, ausfuehrung, ausstattung);
     }
 
+    /**
+     * Diese Methode startet des Konfigurator
+     */
     public void start() {
         do  {
             menue();
@@ -27,7 +33,10 @@ public class App {
         writeAll();
     }
 
-
+    /**
+     * Diese Methode wird verwendet um sich anzumelden.
+     * @return User
+     */
     public User login() {
         System.out.println("Herzlich Willkommen! Dieses Menue soll Ihnen helfen ein Auto zusammenzustellen! Viel Spaß dabei");
         System.out.println("Geben Sie Ihren Namen ein!");

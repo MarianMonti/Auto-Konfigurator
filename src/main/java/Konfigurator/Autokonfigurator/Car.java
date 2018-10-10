@@ -1,5 +1,8 @@
 package com.company;
 
+/**
+ * Diese Klasse erstellt ein Objekt mit dem Typ Car.
+ */
 public class Car {
     private String marke;
     private String farbe;
@@ -23,6 +26,10 @@ public class Car {
         return marke;
     }
 
+    /**
+     * In dieser Methode wird die Marke uebergeben und der dazugehoerige Preis gesetzt
+     * @param marke
+     */
     public void setMarke(String marke) {
         if(marke == "Vw") {
             setPrice(10000);
@@ -51,6 +58,10 @@ public class Car {
         return ausfuehrung;
     }
 
+    /**
+     * In dieser Methode wird die Ausfuehrung gesetzt. Weiteres wird der Preis der Ausfuehrung gesetzt
+     * @param ausfuehrung
+     */
     public void setAusfuehrung(String ausfuehrung) {
         if(ausfuehrung == "Kombi") {
             setPriceAusfuehrung(1500);
@@ -71,6 +82,10 @@ public class Car {
         return ausstattung;
     }
 
+    /**
+     * In dieser Methode wird die die Ausstattung und der dazugehoerige Preis gesetzt
+     * @param ausstattung
+     */
     public void setAusstattung(String ausstattung) {
         if(ausstattung == "Standartausstattung") {
             setPriceAusstattung(1000);

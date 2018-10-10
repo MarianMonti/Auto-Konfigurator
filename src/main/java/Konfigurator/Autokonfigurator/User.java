@@ -1,5 +1,8 @@
 package com.company;
 
+/**
+ * Diese Klasse erstellt einen User
+ */
 public class User {
 
     private String name;
@@ -11,6 +14,7 @@ public class User {
         setAddress(address);
         setEmail(email);
     }
+
 
     public String getName() {
         return name;
